@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(./images/background.jpg);
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.card{
+    display: block;
+    position:relative;
+    width: 40vw;
+    height: 35vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 16px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 16px 0px rgba(50, 50, 50, 0.75);
+    
+
+}
+
+.background{
+width: 100%;
+height: 35%;
+border-radius: 10px 10px 0 0 ;
+background-image: url(./images/background-card.jpg);
+background-size:cover;
+}
+
+.content{
+    width: 100%;
+    height: 45%;
+}
+
+.photo{
+    position: relative;
+    width:25%;
+    height: 65%;
+    border-radius: 100%;
+    border: 0.5vw solid white;
+    margin: auto;
+    top: -40%;
+    background-image: url(./images/foto-perfil.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+.cardfooter{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border-radius: 0 0 10px 10px ;
+    border-top: 1px solid rgb(235, 224, 224);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.info {
+    display: flex;
+    position: relative;
+    top: -45%;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+   
+}
+
+.name {
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-size: 1.5vw;
+    
+}
+.age, .city, .clickname {
+    color:slategrey;
+    font-weight: 400;
+}
+.city{
+    font-size: 1vw;
+}
+.clicks {
+    display: flex;
+    width:fit-content;
+    margin: auto;
+    flex-direction: column;
+}
+
+.number{ 
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-bottom: 0px;
+}
+.clickname{
+    text-align: center;
+    margin-top: 0.5px;
+    font-size: 1vw;
+}
+
+
+
